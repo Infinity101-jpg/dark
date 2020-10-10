@@ -1,8 +1,7 @@
 def run():
     import main
     import os
-    os.system('cls')
-    os.system('clear')
+    print("\n" * 150)
     main.main()
 
 
