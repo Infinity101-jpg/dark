@@ -5,4 +5,3 @@ def main():
     io.write('Hello, World!')
 
 program.run()
-program.exit()
