@@ -70,3 +70,14 @@ def main():
 	write(typeof(1.5))
 
 run()
+
+# If/Else Statements
+
+def main():
+	a = 'hello'
+	if a == 'hello':
+		write('hi')
+	else:
+		write('oops')
+
+run()
