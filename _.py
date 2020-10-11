@@ -1,3 +1,0 @@
-
-write = print
-read = input
