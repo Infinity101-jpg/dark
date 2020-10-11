@@ -76,8 +76,8 @@ run()
 def main():
 	a = 'hello'
 	if a == 'hello':
-		write('hi')
+		write('hi');
 	else:
-		write('oops')
+		write('oops');
 
 run()
