@@ -6,28 +6,28 @@ All of your code runs in the "main.dark" file. Do not edit the "main.py" file. A
 # How To Write Your First Program
 Below is a simple "Hello World" program.
 
-`def main():
+def main():
 	write('Hello, World!')
 		
-run()`
+run()
 
 As you can see, the Dark Programming Language is a very simple language.
 
 # How To Make A Loop
 Below is a simple loop.
 
-`def main():
+def main():
 	i = 1
 	while i <= 10:
 		print(i)
 		i = i + 1
 
-run()`
+run()
 
 # Data Types
 Below is all The data types.
 
-`int:
+int:
 a = 10
 
 float:
@@ -37,4 +37,36 @@ str:
 c = "Hello, World!"
 
 boolean:
-d = True`
+d = true
+e = false
+
+*Note when writing a boolean, everything is in lowercase letters.
+
+# How to check what the type of something is
+
+def main():
+	a = 10
+	write(typeof(a))
+
+run()
+
+/or/
+
+def main():
+	write(typeof("Hello"))
+
+run()
+
+/or/
+
+def main():
+	write(typeof(true))
+
+run()
+
+/or/
+
+def main():
+	write(typeof(1.5))
+
+run()
