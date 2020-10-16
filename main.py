@@ -17,13 +17,19 @@ def typeof(z):
         return 'Boolean';
 true = True
 false = False
+import random as r
+def random(x, y):
+  return r.randint(x, y)
+
 
 def write(a):
     print("  --> " + str(a))
 def read(b):
     input(b)
     
-    
+def lengthof(x):
+  return(len(x))
+
 def run():
     main()
     print("  --> Process Has Completed.")
