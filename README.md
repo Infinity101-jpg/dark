@@ -81,3 +81,11 @@ def main():
 		write('oops');
 
 run()
+
+# How To Check For Type
+
+def main():
+	write(typeof("Hello"))
+
+run()
+
