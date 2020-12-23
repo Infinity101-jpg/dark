@@ -1,7 +1,7 @@
 # Dark
 The Dark Programming Language (runs off of Python).
 
-All of your code runs in the "main.dark" file. Do not edit the "main.py" file. Also, do not edit the "o.py" file. These files make the Programming Language work, so do not edit them.
+All of your code runs in the "main.dark" file. Do not edit the "main.py" file. Also, do not edit the "o.py" file. These files make the Programming Language work, so do not edit them. Note: variable name cannot be "pass" use "passw" instead.
 
 # How To Write Your First Program
 Below is a simple "Hello World" program.
